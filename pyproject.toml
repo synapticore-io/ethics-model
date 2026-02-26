@@ -17,6 +17,11 @@ dependencies = [
     "plotly>=5.18.0", # For visualizations
     "polars>=0.18.15", # For data processing
     "graphbrain",
+    "aiohttp>=3.10.11",
+    "filelock>=3.16.0",
+    "protobuf>=5.26.1",
+    "requests>=2.32.2",
+    "werkzeug>=3.0.6",
 ]
 
 [project.optional-dependencies]
@@ -35,7 +40,7 @@ train = [
     "safetensors>=0.4.3",
     "tensorboard>=2.16.0",
     "torch-tb-profiler>=0.4.3",
-    "transformers>=4.40.0",
+    "transformers>=4.50.0",
     "transformers_stream_generator>=0.0.5",
     # For Linux: https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl
     # Windows: install bitsandbytes manually after syncing dependencies:
@@ -62,7 +67,7 @@ full = [
     "safetensors>=0.4.3",
     "tensorboard>=2.16.0",
     "torch-tb-profiler>=0.4.3",
-    "transformers>=4.40.0",
+    "transformers>=4.50.0",
     "transformers_stream_generator>=0.0.5",
     # For Linux: https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl
     # Windows: install bitsandbytes manually after syncing dependencies:
