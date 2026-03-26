@@ -1,5 +1,7 @@
 # EthicsModel
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N71WOHZ3)
+
 A modern, modular PyTorch framework for ethical text analysis, manipulation detection, and narrative understanding. Supports integration with LLM embeddings (e.g., Huggingface Transformers), GraphBrain semantic hypergraphs, and Graph Neural Networks (GNNs, e.g., torch-geometric). Features explainability, uncertainty quantification, and advanced graph-based reasoning with comprehensive visualizations using Plotly Express.
 
 ---
