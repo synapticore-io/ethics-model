@@ -30,7 +30,7 @@ graphbrain = [
 ]
 train = [
     "accelerate>=1.6.0",
-    "datasets>=3.5.1",
+    "datasets>=4.8.4",
     "hf-transfer>=0.1.9",
     "huggingface_hub>=0.30.2",
     "nlpaug>=1.1.11",
@@ -54,7 +54,7 @@ dev = [
 full = [
     # All dependencies for training, development, and testing
     "accelerate>=1.6.0",
-    "datasets>=3.5.1",
+    "datasets>=4.8.4",
     "hf-transfer>=0.1.9",
     "huggingface_hub>=0.30.2",
     "nlpaug>=1.1.11",
