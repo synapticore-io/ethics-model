@@ -47,7 +47,7 @@ train = [
     # pip install --force-reinstall "https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-0.44.1.dev0-py3-none-win_amd64.whl"
 ]
 dev = [
-    "pytest>=7.4.0",
+    "pytest>=9.0.3",
     "tensorboard>=2.16.0",
     "torch-tb-profiler>=0.4.3"
 ]
@@ -61,7 +61,7 @@ full = [
     "optimum>=1.24.0",
     "peft>=0.15.2",
     "pyarrow>=20.0.0",
-    "pytest>=7.4.0",
+    "pytest>=9.0.3",
     "plotly>=5.18.0",
     "polars>=0.18.15",
     "safetensors>=0.4.3",
