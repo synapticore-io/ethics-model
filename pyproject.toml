@@ -19,7 +19,7 @@ dependencies = [
     "graphbrain",
     "aiohttp>=3.10.11",
     "filelock>=3.16.0",
-    "protobuf>=5.26.1",
+    "protobuf>=7.34.1",
     "requests>=2.32.2",
     "werkzeug>=3.0.6",
 ]
