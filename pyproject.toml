@@ -15,7 +15,7 @@ dependencies = [
     "torch-geometric>=2.6.1",
     "spacy>=3.7.2", # Required for both GraphBrain and SimpleGraph
     "plotly>=5.18.0", # For visualizations
-    "polars>=0.18.15", # For data processing
+    "polars>=1.39.3", # For data processing
     "graphbrain",
     "aiohttp>=3.10.11",
     "filelock>=3.16.0",
@@ -63,7 +63,7 @@ full = [
     "pyarrow>=20.0.0",
     "pytest>=7.4.0",
     "plotly>=5.18.0",
-    "polars>=0.18.15",
+    "polars>=1.39.3",
     "safetensors>=0.4.3",
     "tensorboard>=2.16.0",
     "torch-tb-profiler>=0.4.3",
